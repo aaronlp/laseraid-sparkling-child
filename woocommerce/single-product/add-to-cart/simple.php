@@ -23,6 +23,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 if ( ! $product->is_purchasable() ) {
+	?>
+	<div class='enquire' style='float: none; margin-left: 0; margin-bottom: 10px;'>
+		<a href='/contact-us' target='_blank'>Enquire</a>
+	</div>
+
+	<?php
 	return;
 }
 
