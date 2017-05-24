@@ -12,7 +12,7 @@ get_header(); ?>
 
 		<div id="content" class="site-content wel-come-text" role="main">
 
-		
+
 
 			<?php
 
@@ -42,9 +42,9 @@ get_header(); ?>
 
 		</div><!-- #content -->
 
-</div>		
+</div>
 
-</div>	
+</div>
 
 
 
@@ -56,9 +56,9 @@ get_header(); ?>
 
         <h1><span>Australia's Most Trusted Supplier</span></h1>
 
-        
 
-        <?php 
+
+        <?php
 
 			$args = array( 'post_type' => 'post', 'posts_per_page' => 3 );
 
@@ -70,7 +70,7 @@ get_header(); ?>
 
 
 
-	
+
 
 		<div class="col-md-3">
 
@@ -96,19 +96,19 @@ get_header(); ?>
 
         </div>
 
-        <?php endwhile; ?>
+	<?php endwhile; ?>
 
 
 
 
 
-	
+
 
 		<div class="col-md-3">
 
         	<div class="post-box">
 
-            <figure style="background-image:url('http://staging.laseraid.com.au/wp-content/uploads/2017/03/184b7cb84d7b456c96a0bdfbbeaa5f14_M.jpg');background-size:70% 70%;">
+            <figure style="background-image:url('/wp-content/uploads/2017/03/184b7cb84d7b456c96a0bdfbbeaa5f14_M.jpg');background-size:70% 70%;">
 
             <a href="<?php bloginfo(url); ?>/testimonials"></a></figure>
 
@@ -124,9 +124,9 @@ get_header(); ?>
 
         </div>
 
-        
-        
-        	
+
+
+
 
         </div>
 
